@@ -1,6 +1,7 @@
 body {
     width: 70%;
     margin: 100px auto;
+    font-family: sans-serif;
 }
 
 /* Title */
@@ -23,4 +24,5 @@ h1 {
 
 footer {
     text-align: center;
+    margin-top: 200px;
 }
