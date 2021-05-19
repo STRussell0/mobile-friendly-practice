@@ -1,0 +1,26 @@
+body {
+    width: 70%;
+    margin: 100px auto;
+}
+
+/* Title */
+
+h1 {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+/* Text  */
+
+#section-one {
+}
+
+#section-two {
+    text-align: right;
+}
+
+/* Footer  */
+
+footer {
+    text-align: center;
+}
