@@ -1,19 +1,35 @@
 body {
-    width: 70%;
-    margin: 100px auto;
-    font-family: sans-serif;
+    margin: 0 0;
+    font-family: serif;
 }
 
 /* Title */
 
-h1 {
+#wave-container {
+    position: relative;
+    font-family: sans-serif;
     text-align: center;
-    margin-bottom: 200px;
+    color: black;
+}
+
+h1 {
+    top: 20px;
+    color: #FFF;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
 }
 
 /* Text  */
 
-#section-one {
+section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2 {
+    letter-spacing: 2px;
+    color: teal;
 }
 
 #section-two {
@@ -23,6 +39,9 @@ h1 {
 /* Footer  */
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
     text-align: center;
-    margin-top: 200px;
 }
